@@ -8,7 +8,11 @@ A simple simulation of Langton's ant
 environment. This can be done by running ``virtualenv -p python3 env``. If you don't have virtualenv installed you can install it by running: ``pip install --upgrade virtualenv``
 4. Activate the virtual environment by running ``source env/bin/activate``
 5. Install the dependencies by running: ``pip install -r requirements.txt``
-6. Everything should now be alright, you can check the next chapter, Running a simulation, to check that everything is working as expected.
+6. Everything should now be alright, you can check the next chapter, Running a simulation, to run a custom simulation,
+or run the following command to try the default one: 
+```
+python simulation.py --file 'example/grid.json' --initial_x 5 --initial_y 5 --steps 200
+```
 
 ## Running a simulation
 It is possible to run a simulation of N steps by providing the following data:
