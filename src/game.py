@@ -1,3 +1,4 @@
+import os
 import time
 from termcolor import colored
 from src.direction import Direction
@@ -95,6 +96,7 @@ class LangtonsAnt:
         Simulates and prints N steps at once
         """
         for i in range(steps):
+            os.system('cls' if os.name == 'nt' else 'clear')
             print(f"Iteration: {i + 1}")
             self.next()
             self.draw_grid()
