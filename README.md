@@ -2,7 +2,7 @@
 A simple simulation of Langton's ant
 
 ## Installation 
-1. Clone this repo
+1. Clone this repo: `git clone https://github.com/dalvtor/langtons-ant.git`
 2. Change the working directory to this project: `cd LangstonAnt`
 3. Since this project has dependencies (just one dependency to color the output to the terminal), it is better to create a virtual
 environment. This can be done by running ``virtualenv -p python3 env``. If you don't have virtualenv installed you can install it by running: ``pip install --upgrade virtualenv``
@@ -31,7 +31,7 @@ After hitting enter you should be able to see the simulation running.
 Note that you must be in your virtual environment in order to run the simulation.
 
 ## Modifying the settings
-There is a `settings.py`` file that allows you to modify the colors, characters and time of the simulation.
+There is a ``settings.py`` file that allows you to modify the colors, characters and time of the simulation.
 
 ![image info](./example/img/settings.png)
 
