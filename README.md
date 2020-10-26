@@ -1,6 +1,8 @@
 # Langton's ant
 A simple simulation of Langton's ant
 
+![image info](./example/img/simulation.gif)
+
 ## Installation 
 1. Clone this repo: `git clone https://github.com/dalvtor/langtons-ant.git`
 2. Change the working directory to this project: `cd langston-ant`
