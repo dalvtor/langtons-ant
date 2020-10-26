@@ -37,7 +37,8 @@ After hitting enter you should be able to see the simulation running.
 Note that you must be in your virtual environment in order to run the simulation.
 
 ## Modifying the settings
-There is a ``settings.py`` file that allows you to modify the colors, characters and time of the simulation.
+There is a ``settings.py`` file that allows you to modify the colors, characters and time of the simulation. You can also
+decide if you want the terminal to be cleared after each iteration.
 
 ![image info](./example/img/settings.png)
 
