@@ -3,7 +3,7 @@ A simple simulation of Langton's ant
 
 ## Installation 
 1. Clone this repo: `git clone https://github.com/dalvtor/langtons-ant.git`
-2. Change the working directory to this project: `cd LangstonAnt`
+2. Change the working directory to this project: `cd langston-ant`
 3. Since this project has dependencies (just one dependency to color the output to the terminal), it is better to create a virtual
 environment. This can be done by running ``virtualenv -p python3 env``. If you don't have virtualenv installed you can install it by running: ``pip install --upgrade virtualenv``
 4. Activate the virtual environment by running ``source env/bin/activate``
