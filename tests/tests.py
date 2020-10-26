@@ -12,7 +12,7 @@ class TestLangtonsAnt(unittest.TestCase):
         )
 
     def test_init(self):
-        with self.assertRaises(TypeError):
+        with self.assertRaises(ValueError):
             LangtonsAnt([[True, False], [False, False]], (2, 2))
 
         with self.assertRaises(TypeError):

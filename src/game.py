@@ -20,7 +20,7 @@ class LangtonsAnt:
         start_pos_x, start_pos_y = starting_position
 
         if start_pos_x < 0 or start_pos_y < 0 or start_pos_x >= len(grid) or start_pos_y >= len(grid[0]):
-            raise TypeError('The given starting position is out of range')
+            raise ValueError('The given starting position is out of range')
 
         self.grid = grid
         self.position = {
