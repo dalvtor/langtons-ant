@@ -1,0 +1,8 @@
+*.pyc
+.vscode
+.DS_Store
+logs/
+node_modules/
+.idea
+venv/
+env/
