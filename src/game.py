@@ -2,7 +2,7 @@ import os
 import time
 from termcolor import colored
 from src.direction import Direction
-from src.settings import GRID_COLORS, TIME_TO_SLEEP, GRID_CHARACTER
+from src.settings import GRID_COLORS, TIME_TO_SLEEP, GRID_CHARACTER, CLEAR_SCREEN_BETWEEN_STEPS
 
 
 class LangtonsAnt:
@@ -96,7 +96,8 @@ class LangtonsAnt:
         Simulates and prints N steps at once
         """
         for i in range(steps):
-            os.system('cls' if os.name == 'nt' else 'clear')
+            if CLEAR_SCREEN_BETWEEN_STEPS:
+                os.system('cls' if os.name == 'nt' else 'clear')
             print(f"Iteration: {i + 1}")
             self.next()
             self.draw_grid()
